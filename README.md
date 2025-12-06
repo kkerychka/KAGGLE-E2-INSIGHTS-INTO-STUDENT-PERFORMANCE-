@@ -55,8 +55,7 @@ Because of this, the Kaggle dataset is excellent for demonstrating **how synthet
 
 ### 3.2 UCI dataset – real student performance data
 
-To obtain more realistic insights, we added a **second dataset** from the  
-[[UCI Machine Learning Repository – “Student Performance”]](https://archive.ics.uci.edu/dataset/320/student+performance).  
+To obtain more realistic insights, we added a **second dataset** from the (https://archive.ics.uci.edu/dataset/320/student+performance).  
 It contains **real grade records** from two Portuguese secondary schools:
 
 - Final grade **G3** on a **0–20** scale (with real failing grades, G3 < 10).  
