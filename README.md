@@ -15,7 +15,7 @@ Another important motivation is data quality and realism. Many student-performan
 To address this, we decided to work with two datasets:
 * an artificial Kaggle dataset with 6,590 students, and
 * a smaller but real dataset from the UCI Machine Learning Repository, containing final grades (including failures) from Portuguese secondary schools.
-Using the same modelling pipeline on both allows us to compare how model performance and interpretability change when we move from synthetic to real educational data.<br>
+Using the same modelling pipeline on both allows us to compare how model performance and interpretability change when we move from synthetic to real educational data.
 From a business and policy perspective, our motivation is not only to build accurate models, but also to understand which factors matter and how they can inform decision-making. Which combinations of study habits, attendance, and family circumstances are associated with risk? Are there distinct groups of students who might benefit from different types of support? How can we turn model outputs into simple, personalised messages that students themselves can act on, rather than just technical scores for experts?
 
 ---
