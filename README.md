@@ -30,10 +30,6 @@ From a business and policy perspective, our motivation is not only to build accu
 
 - **Goal 3 – Language Model (LLM).**  
   Train a small language model that generates **short, personalised feedback messages** for students, based on their predicted risk level and feature profile.
-
-- **Goal 4 – Policy & decision support.**  
-  Provide a data-driven basis for discussions about fairness, inclusion and resource planning in education (which factors matter, which groups are most vulnerable, etc.).
-
 ---
 
 ## 3. Datasets and why we added a second dataset
@@ -60,7 +56,7 @@ Because of this, the Kaggle dataset is excellent for demonstrating **how synthet
 ### 3.2 UCI dataset – real student performance data
 
 To obtain more realistic insights, we added a **second dataset** from the  
-[UCI Machine Learning Repository – “Student Performance”].  
+[[UCI Machine Learning Repository – “Student Performance”]](https://archive.ics.uci.edu/dataset/320/student+performance).  
 It contains **real grade records** from two Portuguese secondary schools:
 
 - Final grade **G3** on a **0–20** scale (with real failing grades, G3 < 10).  
