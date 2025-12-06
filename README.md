@@ -6,7 +6,22 @@ Predicting Outcomes using Machine Learning and Identifying Risk Profiles by Clus
 **Repository:** [https://github.com/kkerychka/KAGGLE-E2-INSIGHTS-INTO-STUDENT-PERFORMANCE-](https://github.com/kkerychka/KAGGLE-E2-INSIGHTS-INTO-STUDENT-PERFORMANCE-)
 
 ---
+## Repository guide
+- [E2.ipynb](E2.ipynb)  
+  Main Jupyter notebook for the project. Implements **Goal 1 (regression)**, **Goal 2 (clustering)** and **Goal 3 (LLM feedback)** on both datasets (Kaggle *StudentPerformanceFactors* and the UCI student performance data).
 
+- [HW10.pdf](HW10.pdf)  
+  Initial project document with our **plan, motivation, business understanding, goals, success criteria** and the mapping to the CRISP-DM phases. This file shows the “first steps” of the project.
+
+- `data/StudentPerformanceFactors.csv`  
+  Kaggle dataset with 6,590 synthetic student records used for the first part of the analysis.
+
+- `data/student-mat.csv` and `data/student-por.csv`  
+  Real student performance data from two Portuguese secondary schools (UCI repository), combined in the notebook for the second part of the analysis.
+
+- `poster/`  
+  Final project poster (PDF/PNG) summarising the main findings from regression, clustering and the LLM.
+---
 ## 1. Motivation & business understanding
 
 Modern schools collect large amounts of digital information about students: grades, attendance, homework submission, extra-curricular activities and sometimes even socio-economic background. However, these data are rarely used proactively. Support for struggling students is usually reactive: teachers notice problems only after poor exam results, repeated failures or behavioural issues. At that point, the damage is often already done.<br>
